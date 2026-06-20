@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/social-preview.jpg" alt="Trash Panda — your AI chats are full of buried treasure" width="900">
+  <img src="assets/trash-panda.png" alt="Trash Panda — your AI chats are full of buried treasure" width="900">
 </p>
 
 # 🦝 Trash Panda
