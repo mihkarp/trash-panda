@@ -1,0 +1,17 @@
+name: 🐛 Bug report
+about: Something went wrong in the den
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      placeholder: "The raccoon duplicated the same Shiny 4 times..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true

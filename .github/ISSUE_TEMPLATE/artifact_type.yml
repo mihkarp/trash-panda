@@ -1,0 +1,18 @@
+name: 💎 Suggest artifact type
+about: Suggest a new kind of thing Trash Panda should rescue
+labels: [artifact]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Artifact name
+      placeholder: "e.g. 🧪 Experiments"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What should it rescue?
+      placeholder: "Describe the artifact and give 2-3 examples."
+    validations:
+      required: true
