@@ -1,0 +1,17 @@
+name: 🦝 Share your haul
+about: Share what Trash Panda rescued from your chats
+labels: [haul]
+body:
+  - type: textarea
+    id: haul
+    attributes:
+      label: What did Trash Panda find?
+      description: Paste a sanitized haul or describe the artifacts.
+      placeholder: "📝 3 To Do’s, 💎 2 Shiny, 🗺️ 1 Plan..."
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: What should the raccoon do better?
+      placeholder: "Project routing, dedupe, artifact types, etc."
